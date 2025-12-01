@@ -23,10 +23,10 @@ with col2:
 
 st.text('')
 if st.button("Predict type of Iris"):
-    result = predict(
-        np.array([[sepal_1, sepal_w, petal_l, petal_w]]))
-st.text(result[0]) 
+    result = predict(np.array([[sepal_1, sepal_w, petal_l, petal_w]]))
+    st.text(result[0]) 
 
 st.text('')
 st.text('')
+
 st.markdown('')
